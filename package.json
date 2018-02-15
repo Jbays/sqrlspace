@@ -1,0 +1,19 @@
+{
+  "name": "sqrlspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "surge --domain massive-queen.surge.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jbays/sqrlspace.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jbays/sqrlspace/issues"
+  },
+  "homepage": "https://github.com/Jbays/sqrlspace#readme"
+}
