@@ -11,17 +11,24 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a href="about.html">one</a></li>
+    <li><a href="#!">two</a></li>
+    <li class="divider"></li>
+    <li><a href="#!">three</a></li>
+  </ul>
+
   <nav class="light-blue lighten-1" role="navigation">
     <div class="nav-wrapper container"><a><img src="./img/blacklogo2.png" alt="blacklogo" border="0"></a>
       <ul class="right hide-on-med-and-down">
         <!-- ORIGINAL <li><a href="#">Navbar Link</a></li> -->
-        <li><a href="#">Navbar Link</a></li>
+        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Navbar Link<i class="material-icons right">arrow_drop_down</i></a></li>
         <!-- THIS IS THE ENTRYPOINT FOR USER EMAILS<li><a href="#">Free Updates</li> -->
 
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link 1</a></li>
+        <li><a href="#">Menu</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
@@ -75,7 +82,7 @@
             <h2 class="center light-blue-text"><i class="material-icons">thumb_up</i></h2>
             <h5 class="center">Our Aim</h5>
 
-            <p class="light">Our aim is to promote resource conservation by providing products that are clever, durable, and ATTRACTIVE.</p>
+            <p class="light">To promote resource conservation by providing products that are clever, durable, and ATTRACTIVE.</p>
           </div>
         </div>
       </div>
